@@ -1,3 +1,59 @@
 body {
-    background: green;
+    background: rgba(30, 0, 128, 0.827);
+  }
+  video {
+      height: 400px;
+      width: 300px;
+      left: -10px;
+      position: absolute;
+      display: block;
+      margin: 0px auto;
+  }
+  div {
+    padding-left: 0px;
+
+  }
+  #image1 {
+      height: 400px;
+      width: 300px;
+      top: 600px;
+      position: absolute;
+  }
+  #image2 {
+    height: 400px;
+    width: 300px;
+    top: 600px;
+    left: 300px;
+    position: absolute;
+  }
+  #image3 {
+    height: 400px;
+    width: 300px;
+    top: 600px;
+    left: 600px;
+    position: absolute;
+  }
+  #image4 {
+    height: 400px;
+    width: 300px;
+    top: 600px;
+    left: 870px;
+    position: absolute;
+  }
+  body {
+    padding: 20px;
+  }
+  button {
+    left: 400px;
+    bottom: 200px;
+    margin-top: 500px;
+    line-height: 300px;
+    font-weight: bold;
+    padding: 0 100px;
+    background: rgb(243, 250, 114);
+    border: none;
+    position: absolute;
+  }
+  button:hover {
+    background: rgb(122, 255, 151);
   }
